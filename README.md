@@ -10,11 +10,13 @@
 
 - 解压下载安装包
 
-  ![1559114877507](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559114877507.png)
+  ![1559121997513](assets/1559121997513.png)
+
+  
 
 - 进入bin目录，双击 startup.bat
 
-  ![1559114995275](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559114995275.png)
+  ![1559122043554](assets/1559122043554.png)
 
 - 服务启动，浏览器访问 http://localhost:8080进入SkyWalking监控页面。登录用户默认为：
 
@@ -22,15 +24,15 @@
 
   password: admin
 
-  ![1559115165342](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559115165342.png)
+  ![1559122076266](assets/1559122076266.png)
 
-  ![1559115197723](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559115197723.png)
+  ![1559122099252](assets/1559122099252.png)
 
   
 
 图上，有三个服务，分别为：
 
-![1559115256586](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559115256586.png)
+![1559122121247](assets/1559122121247.png)
 
 [demo](https://github.com/maopanpan/test-skywalking-demo.git)
 
@@ -114,7 +116,7 @@
 
 如图：
 
-![1559118820896](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559118820896.png)
+![1559122150595](assets/1559122150595.png)
 
 - 创建一个名称为test-skywalking-demo Spring Cloud项目
 - 注册中心 test-skywalking-eureka
@@ -124,13 +126,11 @@
 
 ####SkyWalking效果展示
 
-![1559119189885](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559119189885.png)
+![1559122175098](assets/1559122175098.png)
 
-![1559119241434](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559119241434.png)
+![1559122198317](assets/1559122198317.png)
 
-![1559119265484](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559119265484.png)
+![1559122276067](assets/1559122276067.png)
 
-![1559119307027](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559119307027.png)
-
-![1559119341620](C:\Users\Y\AppData\Roaming\Typora\typora-user-images\1559119341620.png)
+![1559122246065](assets/1559122246065.png)
 
