@@ -1,0 +1,9 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: test-skywalking-consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
