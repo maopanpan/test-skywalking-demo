@@ -25,7 +25,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.skywalking</groupId>
-            <artifactId>apm-toolkit-log4j-1.x</artifactId>
+            <artifactId>apm-toolkit-logback-1.x</artifactId>
             <version>6.1.0</version>
         </dependency>
         <dependency>
