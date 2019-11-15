@@ -122,7 +122,9 @@
 - 注册中心 test-skywalking-eureka
 - 服务端 test-skywalking-producer
 - 服务调用方 test-skywalking-customer
-- 分别启动 test-skywalking-eureka、test-skywalking-producer、test-skywalking-customer
+- 启动 test-skywalking-eureka
+- 启动 test-skywalking-producer(添加jvm参数-javaagent:/Users/jsohpillyu/Public/developware/apache-skywalking-apm-bin/agent/skywalking-agent.jar -DSW_AGENT_NAME=producer -Dskywalking.collector.servers=localhost:10800)
+- 启动 test-skywalking-customer(-javaagent:/Users/jsohpillyu/Public/developware/apache-skywalking-apm-bin/agent/skywalking-agent.jar -DSW_AGENT_NAME=consumer -Dskywalking.collector.servers=localhost:10800)
 
 ####SkyWalking效果展示
 
